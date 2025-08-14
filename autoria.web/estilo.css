@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    height: 100%;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    background: #f7fbff;
+    color: #111827;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  #cabecalho, #rodape {
+    height: 64px;
+    background: transparent;
+  }
+  #conteudo-principal {
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+  }
+  #caixa-login {
+    width: 100%;
+    max-width: 360px;
+    text-align: center;
+    padding: 20px;
+    border-radius: 12px;
+  }
+  #imagem-química {
+    width: 180px;
+    height: 180px;
+    position: relative;
+    top: -30px;
+    border-radius: 50%;
+    object-fit: cover;
+    display: block;
+    margin: 0 auto 20px auto;
+    border: 2px solid #ccc;
+  }
+  #botao-entrar {
+    display: inline-block;
+    width: 70%;
+    padding: 20px;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 8px;
+    border: none;
+    cursor: pointer;
+    background: #2184f5;
+    color: #fff;
+  }
+  #botao-entrar:active {
+    transform: translateY(1px);
+  }
+
+  #imagem-ifrn { 
+    height: 90px;
+
+  }
+  
+  #cabecalho {
+    background-color: #bbdafd;
+    height: auto;
+  }
+
+  #rodape {
+    background-color: #8ea8e6;
+    height: auto;
+    text-align: left; padding-left: 30px
+  }
